@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Beranda | Layanan Masyarakat</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <input type="checkbox" id="themeToggle" hidden>
+
+    <label for="themeToggle" class="btn-toggle">
+        ☀️/🌑
+    </label>
+
+    <header>
+        <div class="header-content">
+            <div class="logo">Layanan<span>Masyarakat</span></div>
+            <div class="burger" id="burger">
+                <span></span><span></span><span></span>
+            </div>
+
+            <nav>
+                <ul class="nav-links" id="navMenu">
+                    <li><a href="index.html" class="nav-item">Beranda</a></li>
+                    <li><a href="services.html" class="nav-item active">Layanan</a></li>
+                    <li><a href="about.html" class="nav-item">Tentang</a></li>
+                    <li><a href="contact.html" class="nav-item">Lapor</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <div class="container">
+
+        <!-- HERO SERVICES -->
+        <section class="modern-card hero service-hero">
+            <h1>Jenis Layanan Pengaduan</h1>
+            <p>
+                Pilih kategori layanan sesuai dengan permasalahan yang ingin Anda laporkan
+                agar dapat ditindaklanjuti dengan cepat dan tepat.
+            </p>
+        </section>
+
+        <!-- SERVICES GRID -->
+        <section class="service-section">
+            <div class="service-grid">
+
+                <div class="service-card modern-card">
+                    <div class="service-icon"><img src="assets/jalan.jpg" alt=""></div>
+                    <h3>Jalan Rusak</h3>
+                    <p>Laporkan kondisi jalan berlubang atau rusak yang mengganggu aktivitas.</p>
+                </div>
+
+                <div class="service-card modern-card">
+                    <div class="service-icon"><img src="assets/lampu.png" alt=""></div>
+                    <h3>Lampu Jalan</h3>
+                    <p>Laporkan lampu penerangan jalan yang mati atau rusak.</p>
+                </div>
+
+                <div class="service-card modern-card">
+                    <div class="service-icon"><img src="assets/drainase.jpg" alt=""></div>
+                    <h3>Drainase</h3>
+                    <p>Laporkan saluran air tersumbat atau berpotensi menyebabkan banjir.</p>
+                </div>
+
+                <div class="service-card modern-card">
+                    <div class="service-icon"><img src="assets/Sampah.jpg" alt=""></div>
+                    <h3>Sampah</h3>
+                    <p>Laporkan penumpukan sampah atau pengelolaan yang tidak optimal.</p>
+                </div>
+
+            </div>
+        </section>
+
+    </div>
+
+
+    <footer>
+        <p>&copy; copyright Zee | Dev — Sistem Pengaduan Masyarakat</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
